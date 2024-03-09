@@ -20,11 +20,9 @@ while guess != rand_num:
         print(compare_guess)
     elif guess < rand_num:
         print(compare_guess)
-    elif guess == rand_num:
-        print(compare_guess)
-        break
     
     guess = int(input("Please guess a number: "))
 
+print(compare_guess)
 
 
